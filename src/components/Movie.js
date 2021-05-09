@@ -18,11 +18,12 @@ const Poster = styled.div`
   background-position: center center;
 `;
 
-export default function Movie({ id, medium_cover_image }) {
-  <Container>
-    <Link to={`/${id}`}>
-      {id}
-      <Poster bg={medium_cover_image} />
-    </Link>
-  </Container>;
+export default function Movie({ id, bg }) {
+  return (
+    <Container>
+      <Link to={`/${id}`}>
+        <Poster bg={bg} />
+      </Link>
+    </Container>
+  );
 }

@@ -38,3 +38,17 @@
 > query에 variable이 있을 때 apollo를 위해 query의 이름이 있어야 한다.  
 > apollo가 변수의 타입($id: Int)을 검사하도록 도와준다.  
 > ![img](./img/apollo-query.jpg)
+
+<br>
+
+## 2.0 에러
+
+### GraphQL '$' Error
+
+> ![img](./img/error.jpg)  
+> Detail.js의 GET_MOVIE query문에서 에러가 발생했다.  
+> query를 잘못 작성해서 생기는 오류 였고
+>
+> ![img](./img/apollo-query.jpg)  
+> 위의 이미지에서 커서가 위치한 부분 gql`{ query getMovie()...}'; 부분에 문제가 있었다.  
+> query를 중괄호로 감싸지 않고 입력을 해야 query가 올바르게 작동되었다.
