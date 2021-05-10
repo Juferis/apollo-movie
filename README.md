@@ -38,6 +38,9 @@
 > query에 variable이 있을 때 apollo를 위해 query의 이름이 있어야 한다.  
 > apollo가 변수의 타입($id: Int)을 검사하도록 도와준다.  
 > ![img](./img/apollo-query.jpg)
+>
+> Optional Chaining[링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining)  
+> "?." 연산으로 체이닝과 유사하지만 검사를 할 수 있다.(검사 코드의 길이가 줄어든다)
 
 <br>
 

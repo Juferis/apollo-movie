@@ -68,13 +68,11 @@ export default function Home() {
       </Header>
       {loading && <Loading>Loading...</Loading>}
       {/* // map은 리스트의 요소를 지정된 함수로 처리해주는 함수 */}
-      {!loading && data.movies && (
-        <Movies>
-          {data.movies.map((movie) => (
-            <Movie key={movie.id} id={movie.id} bg={movie.medium_cover_image} />
-          ))}
-        </Movies>
-      )}
+      <Movies>
+        {data?.movies?.map((movie) => (
+          <Movie key={movie.id} id={movie.id} bg={movie.medium_cover_image} />
+        ))}
+      </Movies>
     </Container>
   );
 }
