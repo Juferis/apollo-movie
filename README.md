@@ -30,9 +30,9 @@
 
 > **Apollo**  
 > Apollo Client in your React app 설명 [링크](https://www.apollographql.com/docs/react/get-started/)  
-> apollo-boost : GraphQl Yoga처럼 모든 것을 다 설정해 둔 패키지
+> apollo-boost : GraphQl Yoga처럼 모든 것을 다 설정해 둔 패키지  
 > React Apollo는 사용자가 어떤 페이지를 보고 있었는지에 대한 정보를 캐시에 저장한다.  
-> 그래서 다시 request를 보내지 않아도 되기에 로딩을 덜 보게된다.
+> 그래서 다시 request를 보내지 않아도 되기에 로딩을 덜 보게된다.  
 >
 > **styled-components** > [styled-components](https://hellominchan.tistory.com/99)  
 > JS 파일 내에서 CSS를 사용할 수 있게 해주는 React 프레임워클 주요 대상으로 하는 라이브러리
