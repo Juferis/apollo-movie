@@ -59,7 +59,7 @@
 
 ### GraphQL '$' Error
 
-> ![img](./img/error.jpg)  
+> ![img](./img/error_01.jpg)  
 > Detail.js의 GET_MOVIE query문에서 에러가 발생했다.  
 > query를 잘못 작성해서 생기는 오류 였고
 >
