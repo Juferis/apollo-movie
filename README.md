@@ -38,7 +38,7 @@
 > JS 파일 내에서 CSS를 사용할 수 있게 해주는 React 프레임워클 주요 대상으로 하는 라이브러리
 >
 > **Link**  
-> "<a href={link}>"는 React App을 죽게 만들기에 react-router-dom의 Link를 사용  
+> ""<a href={link}>""는 React App을 죽게 만들기에 react-router-dom의 Link를 사용  
 >
 > **Apollo의 query**  
 > query에 variable이 있을 때 apollo를 위해 query의 이름이 있어야 한다.  
