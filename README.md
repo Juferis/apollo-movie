@@ -6,7 +6,7 @@
 
 <br>
 
-> GraphQL로 만든 영화 API를 이용하기 위해 http://localhost:4000/포트 서버를 실행해 준다.  
+> GraphQL로 만든 영화 API를 이용하기 위해 포트 서버를 실행해 준다.  
 > 4000번 포트를 Apollo의 uri로 지정해 JSON및 Query를 받아온다.  
 > **받아온 결과**  
 > ![img](./img/img_01.jpg)  
