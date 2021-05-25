@@ -1,5 +1,11 @@
 # GraphQL로 영화 웹 앱 만들기
 
+## 결과 화면
+
+![img](./img/result.jpg)
+
+<br>
+
 > GraphQL로 만든 영화 API를 이용하기 위해 http://localhost:4000/포트 서버를 실행해 준다.  
 > 4000번 포트를 Apollo의 uri로 지정해 JSON및 Query를 받아온다.  
 > **받아온 결과**  
@@ -41,6 +47,11 @@
 >
 > Optional Chaining[링크](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Optional_chaining)  
 > "?." 연산으로 체이닝과 유사하지만 검사를 할 수 있다.(검사 코드의 길이가 줄어든다)
+
+### 1.2 주의점
+
+> Graphql API 서버를 실행 시킨 후 사용할 것  
+> API_URL = "https://yts-proxy.nomadcoders1.now.sh/list_movies.json" API링크를 수정한다.
 
 <br>
 
